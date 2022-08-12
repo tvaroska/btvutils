@@ -36,9 +36,9 @@ if __name__ == "__main__":
     delete(jobs)
 
     # Delete models
-    print("Deleteing models")
-    models = aiplatform.Model.list()
-    delete(models)
+    # print("Deleteing models")
+    # models = aiplatform.Model.list()
+    # delete(models)
 
     # Delete all pipelines
     print("Deleteing custom jobs")
